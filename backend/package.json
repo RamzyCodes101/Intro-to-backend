@@ -1,0 +1,27 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a project tutorial for intro to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamzyCodes101/Intro-to-backend.git"
+  },
+  "author": "Ramzy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamzyCodes101/Intro-to-backend/issues"
+  },
+  "homepage": "https://github.com/RamzyCodes101/Intro-to-backend#readme",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.1",
+    "nodemon": "^3.1.14"
+  }
+}
